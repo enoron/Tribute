@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Balance Sheet</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial;
+        margin: 0;
+      }
+      .main {
+        width: 800px;
+        height: 60vh;
+        border: 2px solid gray;
+        margin-left: 400px;
+        margin-right: 200px;
+        margin-top: 10px;
+      }
+      .nav {
+        background-color: black;
+       justify-content: flex-end;
+        display: flex;
+      }
+      a {
+        color: white;
+        padding: 15px 17px;
+        text-decoration: none;
+        text-align: center;
+      }
+      table{
+        border-collapse: collapse;
+        width: 98%;
+        margin-left: 8px;
+      }
+      .tr{
+        background-color: rgb(208, 205, 205);
+      }
+      td, th {
+       padding: 8px 15px;
+       text-align: left;
+      }
+      td{
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1 style="margin-left: 20px">Balance Sheet</h1>
+      <h5 style="margin-left: 20px">AcmeWidgetCorp</h5>
+
+      <ul class="nav">
+        <a href="#">2019</a>
+        <a href="#">2020</a>
+        <a href="#">2021</a>
+      </ul>
+      <h3 style="color: lightblue; margin-left: 20px;">Assets</h3>
+      <div>
+        <table>
+            <tr class="tr">
+              <th style="text-align: left;">Cash</th>
+              <td>$25</td>
+              <td>$30</td>
+              <td>$28</td>
+            </tr>
+            <tr>
+              <td style="text-align: left;"><i>This is the cash we currently have on hand.</i></td>
+            </tr>
+            <tr class="tr">
+              <th>Checking</th>
+              <td>$54</td>
+              <td>$56</td>
+              <td>$53</td>
+            </tr>
+            <tr>
+              <td style="text-align: left;"><i>Our primary transactional account.</i></td>
+            </tr>
+            <tr class="tr">
+              <th>Savings</th>
+              <td>$500</td>
+              <td>$650</td>
+              <td>$728</td>
+            </tr>
+            <tr>
+              <td style="text-align: left;"><i>set aside for emergencies.</i></td>
+            </tr>
+        </table> 
+      </div>
+    </div>
+  </body>
+</html>
